@@ -5,6 +5,7 @@ This PowerShell script takes a list of PC as input, gets their BitLocker encrypt
 
 Description of CVE-2018-12038 from NIST :
 >An issue was discovered on Samsung 840 EVO and 850 EVO devices (only in "ATA high" mode, not vulnerable in "TCG" or "ATA max" mode), Samsung T3 and T5 portable drives, and Crucial MX100, MX200 and MX300 devices. Absence of a cryptographic link between the password and the Disk Encryption Key allows attackers with privileged access to SSD firmware full access to encrypted data.
+
 [More here ...](https://nvd.nist.gov/vuln/detail/CVE-2018-12037)
 
 Along with applying patches on SSD firmware, [CERT advises not to use hardware BitLocker encryption.](https://kb.cert.org/vuls/id/395981/)
